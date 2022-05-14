@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  background-color: black;
+  background-size: 100vh;
+}
+.speedometer-image {
+  width: 100vw;
+}
+.heading {
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speed {
+  color: #ffffff;
+}
+
+.warning {
+  color: #cbd5e1;
+}
+.button-accelerate {
+  border-radius: 10px;
+  background-color: #0b69ff;
+  padding: 10px;
+  color: #ffffff;
+  border: 0px;
+  margin: 10px;
+}
+.button-brake {
+  background-color: #07080c;
+  color: #94a3b8;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #94a3b8;
+}
